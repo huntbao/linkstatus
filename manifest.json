@@ -1,0 +1,28 @@
+{
+  "background": {
+    "scripts": [
+      "src/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "src/logo.png",
+    "default_title": "Link Status"
+  },
+  "icons": {
+    "16": "src/logo.png",
+    "19": "src/logo.png",
+    "32": "src/logo.png",
+    "48": "src/logo.png",
+    "128": "src/logo.png"
+  },
+  "description": "Link Status - Check all links' status of your site",
+  "manifest_version": 2,
+  "name": "Link Status",
+  "short_name": "Link Status",
+  "minimum_chrome_version": "28",
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "version": "1.0.0"
+}
